@@ -1,0 +1,157 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* ===== HOMEPAGE ===== */
+.homepage-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-column {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 10px;
+    background: #f8f8f8;
+}
+
+.left-column .brand-text h2 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    color: #000;
+    text-align: center;
+}
+
+.left-column .brand-text p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #444;
+    text-align: center; /* center the "by" */
+}
+
+.left-column .logo img {
+    max-height: 80px;
+    margin-top: 10px;
+}
+
+.right-column {
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.right-column h1 {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 40px;
+    border: 2px solid #000;
+    background: transparent;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* ===== PRODUCT PAGE ===== */
+.product-page {
+    background: url('images/background.jpg') center/cover no-repeat;
+    color: #fff;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+/* Product Header */
+.product-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.product-header .brand-text h2 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+}
+
+.product-header .brand-text p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    margin: 5px 0;
+    text-align: center; /* center the "by" */
+}
+
+.product-header .top-logo img {
+    max-height: 120px;
+    margin-top: 15px;
+}
+
+/* Product Details */
+.product-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: rgba(0,0,0,0.65);
+    border-radius: 15px;
+}
+
+.product-details h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.product-details h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 5px;
+}
+
+.nutrition-logo {
+    display: block;
+    max-width: 100px;
+    margin: 15px auto;
+}
