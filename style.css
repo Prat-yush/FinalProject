@@ -1,4 +1,4 @@
-/* Reset */
+/* ===== RESET ===== */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +9,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #000;
     line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* ===== HOMEPAGE ===== */
@@ -150,4 +155,63 @@ body {
     padding-bottom: 5px;
 }
 
-/* Removed .nutrition-logo as it is no longer used */
+/* ===== MOBILE RESPONSIVE ===== */
+@media screen and (max-width: 768px) {
+    .homepage-container {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .left-column {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .right-column {
+        padding: 20px;
+    }
+
+    .products {
+        gap: 15px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 0.9rem;
+    }
+
+    .product-details {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .product-header .top-logo img {
+        max-height: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .right-column h1,
+    .product-details h1 {
+        font-size: 1.8rem;
+    }
+
+    .product-details h2 {
+        font-size: 1.2rem;
+    }
+
+    .left-column .brand-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+}
