@@ -40,7 +40,7 @@ body {
     font-weight: 400;
     font-size: 1rem;
     color: #444;
-    text-align: center; /* center the "by" */
+    text-align: center;
 }
 
 .left-column .logo img {
@@ -117,7 +117,7 @@ body {
     font-size: 1rem;
     color: #fff;
     margin: 5px 0;
-    text-align: center; /* center the "by" */
+    text-align: center;
 }
 
 .product-header .top-logo img {
@@ -150,8 +150,4 @@ body {
     padding-bottom: 5px;
 }
 
-.nutrition-logo {
-    display: block;
-    max-width: 100px;
-    margin: 15px auto;
-}
+/* Removed .nutrition-logo as it is no longer used */
